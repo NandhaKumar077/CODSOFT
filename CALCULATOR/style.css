@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.calci{
+    height:480px;
+    width:480px;
+    background-color: rgb(94, 132, 246);
+    border-radius: 50px;
+}
+.display{
+    height:90px;
+    width:400px;
+    background-color:white;
+    border-radius: 20px;
+    margin:40px;
+    font-size: 90px;
+    text-align: right;
+    font-family: Digital-7, sans-serif;
+    letter-spacing: 8px;
+
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 6px;
+    gap:10px;
+    width:400px;
+    height:250px;
+    margin:40px;
+}
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: rgb(3, 3, 213) ;
+    border-radius: 15px;
+    padding: 1px;
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    height:75px;
+    width:75px;
+  }
